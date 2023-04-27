@@ -1,0 +1,52 @@
+.spot-light{
+    border-radius: 20px;
+    background-color: rgb(49, 47, 47);
+    width: 200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+    position: absolute;
+}
+.pipe{
+    width: 10px;
+    height: 300px;
+    border: 1px solid;
+    background-color: rgb(85, 82, 82);
+    position: relative;
+    top: 400px;
+    left: 90px
+}
+
+.circle {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.red{
+    background-color: red
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.r-light{ 
+    box-shadow: red 0px 22px 70px 4px;
+}
+
+.y-light{
+    box-shadow: yellow 0px 22px 70px 4px;
+}
+
+.g-light{
+    box-shadow: green 0px 22px 70px 4px;
+}
